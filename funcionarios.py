@@ -4,7 +4,7 @@ class Funcionario:
         self.idade = idade
 
     def calcular_salario(self):
-        pass  # Será implementado nas subclasses
+        pass  
 
 class FuncionarioPJ(Funcionario):
     def __init__(self, nome, idade, horas_trabalhadas, valor_hora):
