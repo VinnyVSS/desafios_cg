@@ -23,7 +23,7 @@ class FuncionarioPF(Funcionario):
     def calcular_salario(self):
         return self.salario_fixo
 
-# Criando exemplos de funcionários
+
 pj = FuncionarioPJ("Vinicius", 21, 12,80)
 pf = FuncionarioPF("Michelle", 42, 4500)
 
